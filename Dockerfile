@@ -1,5 +1,4 @@
-FROM bitwalker/alpine-erlang:19.3
-
+FROM bitwalker/alpine-erlang:20.1
 RUN echo "http://dl-2.alpinelinux.org/alpine/v3.6/main" >> /etc/apk/repositories && \
     echo "http://dl-3.alpinelinux.org/alpine/v3.6/main" >> /etc/apk/repositories && \
     echo "http://dl-4.alpinelinux.org/alpine/v3.6/main" >> /etc/apk/repositories && \
